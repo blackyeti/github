@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+   
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width" />
+		
+		<title>Vélo STAR</title>
+		
+		<link href="{{ asset('lib/bootstrap-3.1.1-dist/css/bootstrap.min.css') }}" rel="stylesheet">
+		<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
+		
+    </head>
+    <body>
+		
+		<div class="container" style="padding:15px;">
+		  <div class="row">
+			<div id="main-div" class="well col-xs-12">
+				<div id="menu-div" class="page" style="display:none">
+					<button type="button" class="btn btn-success btn-lg btn-block" onClick="displayMap('bike');">Un vélo !</button>
+					<button type="button" class="btn btn-primary btn-lg btn-block" onClick="displayMap('slot');">Une station !</button>
+					<button type="button" class="btn btn-default btn-lg btn-block" onClick="displayStationList();">Les stations</button>
+				</div>
+				<div id="map-div" class="page" style="display:none">
+					<div id="mapcanvas"></div>
+				</div>
+				<div id="list-div" class="panel-group page" style="display:none">
+					
+				</div>
+			</div>
+		  </div>
+		</div>
+	
+		<!-- Script -->
+		
+		<script src="{{ asset('lib/jquery-1.11.1.min.js') }}"></script>
+		<script src="{{ asset('lib/bootstrap-3.1.1-dist/js/bootstrap.min.js') }}"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<script src="{{ asset('js/rennes.js') }}"></script>
+		
+    </body>
+</html>

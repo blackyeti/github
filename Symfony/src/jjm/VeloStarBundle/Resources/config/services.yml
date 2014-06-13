@@ -1,0 +1,7 @@
+parameters:
+#    jjm_velo_star.example.class: jjm\VeloStarBundle\Example
+
+services:
+#    jjm_velo_star.example:
+#        class: %jjm_velo_star.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

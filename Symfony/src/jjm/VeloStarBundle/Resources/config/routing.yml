@@ -1,0 +1,3 @@
+jjm_velo_star_homepage:
+    pattern:  /veloStar/{section}/{action}
+    defaults: { _controller: jjmVeloStarBundle:VeloStar:index }

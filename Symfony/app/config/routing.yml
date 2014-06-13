@@ -1,0 +1,4 @@
+jjm_velo_star:
+    resource: "@jjmVeloStarBundle/Resources/config/routing.yml"
+    prefix:   /
+
